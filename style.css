@@ -170,3 +170,13 @@ button {
 }
 
 /* Footer */
+
+.footer {
+    height: 75px;
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
