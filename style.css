@@ -2,7 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     color: #f9faf8;
-    text-align: center;
 }
 
 ul {
@@ -51,7 +50,6 @@ a,
     display: flex;
     justify-content: space-between;
     padding: 50px 250px;
-    text-align: left;
 }
 
 .content > * {
@@ -77,6 +75,7 @@ a,
 .information {
     color: #1f2937;
     padding: 25px 0px;
+    text-align: center;
 }
 
 .info-header {
@@ -136,6 +135,7 @@ a,
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    text-align: left;
 }
 
 .cta button {
@@ -158,4 +158,5 @@ a,
 .footer {
     padding: 25px 0px;
     background: #1f2937;
+    text-align: center;
 }
