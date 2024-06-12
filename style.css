@@ -22,6 +22,10 @@ button {
     border: none;
     border-radius: 8px;
     background: #3882f6;
+    align-self: flex-start;
+    padding: 5px 25px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .header {
@@ -48,13 +52,20 @@ button {
     height: 300px;
 }
 
+.title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
 .text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 300px;
+    gap: 20px;
+    width: 400px;
+    color: #f9faf8;
 }
 
 .large-image {
-    width: 300px;
+    width: 350px;
 }
